@@ -1,42 +1,41 @@
-# 📊 Análise de Cancelamento de Clientes (Customer Churn Analysis)
+# 🤖 Automação de Cadastro de Produtos
 
 ## 📌 Sobre o Projeto
-Este projeto tem como objetivo analisar os fatores que influenciam o cancelamento de clientes (Churn), utilizando técnicas de análise de dados para identificar padrões de comportamento e gerar insights que possam apoiar estratégias de retenção.
 
-A análise foi realizada utilizando Python e bibliotecas voltadas para manipulação e visualização de dados.
+Este projeto tem como objetivo automatizar o processo de cadastro de produtos em um sistema, reduzindo atividades manuais e aumentando a eficiência do processo.
 
-## 🎯 Objetivos da Análise
-- Identificar padrões relacionados ao cancelamento de clientes
-- Entender quais fatores impactam o churn
-- Gerar insights para apoiar estratégias de retenção
-- Demonstrar aplicação prática de análise exploratória de dados
+Utilizando Python, a automação lê uma base de dados contendo informações dos produtos e realiza automaticamente o preenchimento dos campos necessários para o cadastro.
+
+## 🎯 Objetivo
+
+Automatizar tarefas repetitivas de cadastro de produtos, tornando o processo mais rápido, eficiente e menos suscetível a erros.
+
+## ⚙️ Funcionamento da Automação
+
+1. Leitura da base de dados contendo os produtos
+2. Tratamento das informações necessárias
+3. Automação do preenchimento no sistema
+4. Cadastro automático dos produtos
 
 ## 🛠 Tecnologias Utilizadas
 
 - Python
 - Pandas
-- Plotly
-- Jupyter Notebook
+- PyAutoGUI
+- OpenPyXL
 - VS Code
-- CSV (base de dados)
 
-## 📊 Etapas da Análise
+## 🚀 Benefícios da Automação
 
-1. Importação da base de dados
-2. Limpeza e tratamento dos dados
-3. Análise exploratória (EDA)
-4. Identificação de padrões de cancelamento
-5. Geração de insights para negócio
+- Redução de processos manuais
+- Maior produtividade
+- Menor risco de erro humano
+- Padronização de dados
 
-## 🔎 Principais Insights
+## 📁 Estrutura do Projeto
 
-- Clientes com **contratos mensais** apresentam maior taxa de cancelamento.
-- Acima de 4 **ligações para o call center** está associado ao churn.
-- Clientes acima de 15 dias atraso possuem maior probabilidade de cancelar o serviço.
-
-## 🚀 Possíveis Ações de Negócio
-
-- Incentivar contratos anuais com benefícios
-- Melhorar a experiência de atendimento ao cliente
-- Criar estratégias de retenção para clientes em atraso no pagamento
-
+Automacao-Cadastro-Produtos
+│
+├── produtos.xlsx
+├── automacao_cadastro.py
+└── README.md
